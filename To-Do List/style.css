@@ -1,0 +1,133 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+
+    background-image: linear-gradient(120deg, rgb(4, 161, 191), rgb(2, 92, 108));
+    font-family: "Poppins", sans-serif;
+    min-height: 657px;
+}
+
+header{
+    font-size: 24px;
+    color: white;
+}
+
+header, form{
+    min-height: 132px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p{  
+    min-height: 33px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#p1{
+    color: yellow;
+}
+
+#p2{
+    color: greenyellow
+}
+
+form input, form button{
+    padding: 4px;
+    font-size: 32px;
+    border: none;
+    background: white;
+
+}
+
+form input{
+    width: 800px;
+    height: 42px;
+}
+
+form button{
+    height: 42px;
+}
+
+form button{
+    color: rgb(2, 95, 112);
+    background: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+form button:hover{
+    background: green;
+    color: white;
+
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lista-tarefas{
+    min-width: 30%;
+    list-style: none;
+
+}
+
+.todo{
+    width: 1300px;
+    margin: 8px;
+    background: rgb(78, 185, 205);
+    color: white;
+    font-size: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: all 0.5s ease;
+}
+
+.todo li{
+    flex: 1;
+}
+
+.trash-btn, .complete-btn{
+    background: red;
+    color: white;
+    border: none;
+    padding: 16px;
+    cursor: pointer;
+    font-size: 16px;
+    
+}
+
+.complete-btn{
+    background: green;
+}
+
+.todo-item{
+    padding: 0px, 8px;
+}
+
+.fa-trash,
+.fa-check{
+    pointer-events: none;
+}
+
+.completa{
+    text-decoration: line-through;
+    background:rgb(81, 223, 112);
+    opacity: 8px;
+}
+
+.fall{
+    transform: translateY(8rem) rotateZ(20deg);
+    opacity: 0;
+}
