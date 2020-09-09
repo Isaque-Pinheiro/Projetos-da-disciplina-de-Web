@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8" />
+  <title>Tela de Cadastro</title>
+</head>
+<body align = "center">
+    <img src="gtx (1).jpg">
+  <div class="container" >
+    <a class="links" id="paracadastro"></a>
+      <div id="cadastro">
+        <form method = "post" action="Leitura.html"> 
+          <h1>Cadastro de placas gráficas</h1> 
+           
+        <table align ="center">
+          <h3>Caracteristícas:</h3>
+          <tr>
+            <td><label for="fmarca">Marca: </label></td>
+            <td><input id="fmarca" name="fmarca" type="text" placeholder="Marca..." required /></td>
+        </tr>
+
+        <tr>
+            <td><label for="fmodelo">Modelo: </label></td>
+            <td><input id="fmodelo" name="fmodelo" type="text" placeholder="Modelo..." required /></td>
+        </tr>
+        </table>
+        
+        <table align ="center">
+         <h3>Especificações:</h3>
+         <tr>
+            <td><label for="fchipset">Chipset: </label></td>
+            <td><textarea name="fchipset" id="fchipset" cols="22" rows="3">- GPU:&#10- Clock Core:&#10- NúcleosCuda:</textarea></td>
+         </tr>
+         <tr>
+            <td><label for="fmemoria">Memória: </label></td>
+            <td><textarea name="fmemoria" id="fmemoria" cols="22" rows="5">- Clock:&#10- Capacidade:&#10- Tipo:&#10- Barramento:&#10- Largura de Banda:</textarea></td>
+         </tr>
+        </table>
+            
+          <p> 
+            <input type="submit" value="Cadastrar"/> 
+          </p>
+           
+        
+
+         
+        </form>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
