@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    
+    <title>Projeto Adaptado - DesWeb</title>
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+
+</head>
+
+<body>
+    
+    <div id="tudo">
+    <h2>Projeto Adaptado - DesWeb <br> <small>Exemplo de formulário de pesquisa (survey)</small></h2>
+
+    <form class = "formulario" method="POST">
+        <div class = "field">
+        <label for="nome">Nome</label>
+        <br>
+        <input type = "text" name = "nome" placeholder = "Coloque seu nome...">
+        </div>
+
+        <br>
+        
+        <div class = "field">
+        <label for="name">Email</label>
+        <br>
+        <input type = "e-mail" name = "email" placeholder = "Coloque o seu email">
+        </div>
+
+        <br>
+
+        <div class = "field">
+        <label for="name">idade <small>(opcional)</small></label>
+        <br>
+        <input type = "text" name = "idade" placeholder = "Idade">
+        </div>
+
+        <br>
+
+        <div class = "field-select">
+        <span>Qual opção melhor descreve o seu estado atual?</span>
+        <select required>
+            <option value=""disable selected>Selecione a ocupação</option> 
+            <option value="Estudante">Estudante</option> 
+            <option value="CLT" >CLT</option>
+            <option value="Prefiro não dizer">Prefiro não dizer</option>
+            <option value="Outro">Outro</option>
+        </select>
+        </div>
+
+        <br>
+
+        <div class="field-radiobox">
+        <span>Você recomendaria este projeto?</span>
+        <br>
+        <input type = "radio" name = "opção" value = "op1" checked > Com certeza
+        <br>
+        <input type = "radio" name = "opção" value = "op2"> Talvez 
+        <br> 
+        <input type = "radio" name = "opção" value = "op3"> Não sei
+        </div>
+
+        <br>
+        
+        <div class="field-checkbox">
+        <span>O que você gostaria de melhorar? (Selecione quantas quiser.)</span>
+        <br>
+        <input type = "checkbox" name = "opção" value = "op1"> Ter mais tempo para estudar
+        <br>
+        <input type = "checkbox" name = "opção" value = "op2"> Estudar mais o que eu gosto
+        <br>
+        <input type = "checkbox" name = "opção" value = "op3"> Gerência de projetos
+        <br>
+        <input type = "checkbox" name = "opção" value = "op4"> NodeJS
+        </div>
+
+        <br>
+        
+        <div>
+        <span>Algum comentário ou sugestão?</span>
+        <textarea placeholder = "Insira seu comentário ou sugestão aqui..."></textarea>
+        </div>
+        
+        <br>
+        <input type = "submit" value = "Enviar">
+    </form>
+
+    </div>
+</body>
+
+
+</html>

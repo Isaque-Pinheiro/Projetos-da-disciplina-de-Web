@@ -1,0 +1,75 @@
+body{
+    font-family: 'Poppins';
+    color:white;
+}
+
+body h2{
+    text-align: center;
+    font-style: normal;
+}
+
+body small{
+    text-align: center;
+    font-size: 13px;
+    font-style: italic;
+
+}
+
+.formulario{
+    margin: 0 auto;
+    width: 400px;
+    padding: 30px;
+    border:1px solid black;
+    background-color: rgb(0, 0, 0, 0.5);
+
+}
+
+.formulario p{ 
+    width: 100%;
+
+}
+
+.formulario label{
+    color: white;
+}
+
+input[type = "text"],
+input[type = "e-mail"]{
+    width: 400px;
+    height: 25px;
+    border: 2px solid;
+}
+
+select{
+    width: 408px;
+    height: 30px;
+    border: 2px solid;
+}
+
+textarea{
+    width: 400px;
+    height: 90px;
+    border: 2px solid;
+}
+
+input[type = "submit"]{
+    width: 408px;
+    height: 35px;
+    color: white;
+    background-color: green;
+}
+
+#tudo{
+    background-image:url(imagens/background-image.jpg);
+    background-repeat: no-repeat;
+    background-size:100%;
+    bottom: 0;
+    left: 0;
+    overflow: auto;
+    padding: 3em;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-size: cover;
+    
+   }
